@@ -102,3 +102,9 @@ footer{
 .invisible{
     visibility: hidden;
 }
+
+.prova{
+    font-size: 30px;
+    color: green;
+    text-decoration: line-through;
+}

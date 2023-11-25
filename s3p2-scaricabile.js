@@ -64,7 +64,7 @@
 //         a.classList.add(className);
 //     }
 // }
-
+// // Ho creato una classe "prova" per verificare gli effetti sui link
 // addNewClass('prova');
 
 
