@@ -1,0 +1,104 @@
+body{
+    font-family: sans-serif;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+table{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    flex-wrap: wrap;
+    width: 100%;
+    max-width: 1600px;
+    border: solid rgb(227, 227, 227) 0.5px;
+    border-radius: 10px;
+    margin: 0 20px;
+    height: auto;
+}
+
+thead{
+    display: flex;
+    width: 100%;
+    min-width: 80px;
+}
+
+tbody{
+    width: 100%;
+}
+
+tr{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    border-bottom: solid rgb(228, 228, 228) 0.5px;
+
+}
+
+th{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+    width: 30%;
+    min-width: 80px;
+    margin: 10px 10px;
+    border-right: solid rgb(228, 228, 228) 0.5px;
+}
+
+
+img{
+    height: 150px;
+}
+
+span{
+    overflow-wrap: break-word;
+    font-size: 0.8em;
+    color: rgb(67, 67, 67);
+    font-weight: 400;
+    text-align: start;
+}
+
+.nome-prodotto{
+    font-size: 1em;
+}
+
+.prezzo{
+    font-size: 1.8em;
+    font-family: 'Roboto';
+    margin: 5px 0px;
+    font-weight: 600;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(77, 124, 232);
+    font-size: 0.9em;
+    cursor: pointer;
+    font-weight: 400;
+}
+.commento{
+    padding: 10px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    border: solid rgb(224, 224, 224) 0.4px;
+    box-shadow: rgb(236, 236, 236) 0px 3px 50px;
+}
+
+footer{
+    display: absolute;
+    bottom: 0;
+    margin: 20px;
+}
+
+
+.invisible{
+    visibility: hidden;
+}

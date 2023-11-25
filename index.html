@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="text/javascript" src="s3p2-scaricabile.js"></script>
+    <link rel="stylesheet" href="index.css">
+
+    <title>Manipolazione DOM</title>
+</head>
+
+<body>
+    <main>
+        <h1>Electronics Shop</h1>
+        <table>
+            <thead>
+                <tr>
+                    <th>Prodotto</th>
+                    <th>Nome</th>
+                    <th>Descrizione</th>
+                    <th>Prezzo</th>
+                    <th>Link</th>
+                    <th>Commento</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+
+
+                    <!-- Macbook -->
+                    <th>
+                        <img alt=""
+                            src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/refurb-mbp16-space-m1-2021_GEO_IT?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1643239921000" />
+
+                    </th>
+                    <th>
+                        <h2 class="nome-prodotto">MacBook Air (M2, 2022)</h2>
+                    </th>
+                    <th>
+
+                        <span>
+                            Alimentato dal chip M2, con un design sottile e leggero,
+                            e display Retina, il MacBook Air offre prestazioni eccezionali
+                            per la produttività e l'intrattenimento.
+                        </span>
+                    </th>
+                    <th>
+
+                        <span class="prezzo">1.149,00€</span>
+                    </th>
+                    <th>
+
+                        <a href="https://www.amazon.it/2022-Apple-Portatile-MacBook-chip/dp/B0B3CJ4HMD?th=1"
+                            target="_blank">Ordina su Amazon</a>
+                    </th>
+                    <th>
+                        <input type="text" placeholder="inserisci il tuo commento" class="commento">
+                    </th>
+                </tr>
+                <tr>
+
+                    <!--  iPhone 13 Pro -->
+                    <th>
+                        <img alt=""
+                            src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/refurb-iphone-13-pro-gold-2023?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1679072986854" />
+                    </th>
+                    <th>
+
+                        <h2 class="nome-prodotto"> iPhone 13 Pro</h2>
+                    </th>
+                    <th>
+                        <span>
+                            Dotato del chip A15 Bionic, tripla fotocamera avanzata e display ProMotion,
+                            l'iPhone 13 Pro offre prestazioni straordinarie, foto e video eccezionali e
+                            un'esperienza utente senza paragoni.
+                        </span>
+                    </th>
+                    <th>
+                        <span class="prezzo">699,00€</span>
+                    </th>
+                    <th>
+                        <a href="https://www.amazon.it/Apple-iPhone-14-128-Mezzanotte/dp/B0BDKBLF8C/ref=sr_1_2_sspa?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2KAN8OD5XSGWS&keywords=iPhone%2B13%2BPro&qid=1700853821&sprefix=iphone%2B13%2Bpro%2Caps%2C212&sr=8-2-spons&ufe=app_do%3Aamzn1.fos.9d4f9b77-768c-4a4e-94ad-33674c20ab35&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"
+                            target="_blank">Ordina su Amazon</a>
+                    </th>
+                    <th>
+                        <input type="text" placeholder="inserisci il tuo commento" class="commento">
+                    </th>
+
+
+                    <!-- Samsung Galaxy S21 Ultra -->
+                    <tr>
+                        <th>
+                            
+                            <img alt="" src="https://m.media-amazon.com/images/I/81ywJT2amxL._AC_UF1000,1000_QL80_.jpg" />
+                        </th>
+                        <th>
+
+                            <h2 class="nome-prodotto"> Samsung Galaxy S21 Ultra</h2>
+                        </th>
+                        <th>
+
+                            <span>
+                                Con una fotocamera penta-lente da 108 MP,
+                                schermo AMOLED dinamico da 120 Hz e potente processore Exynos 2100,
+                                il Galaxy S21 Ultra offre prestazioni da top di gamma e funzionalità avanzate.
+                            </span>
+                        </th>
+                        <th>
+
+                            <span class="prezzo">532,00€</span>
+                        </th>
+                        <th>
+
+                            <a href="https://www.amazon.it/Samsung-Smartphone-pollici-fotocamere-posteriori/dp/B095SZCD5K/ref=sr_1_2?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2BHCB0HLPORQW&keywords=Samsung%2BGalaxy%2BS21%2BUltra&qid=1700853859&sprefix=samsung%2Bgalaxy%2Bs21%2Bultra%2Caps%2C102&sr=8-2&th=1"
+                            target="_blank">Ordina su Amazon</a>
+                        </th>
+                        <th>
+                            <input type="text" placeholder="inserisci il tuo commento" class="commento">
+                        </th>
+                    </tr>
+
+                    <!-- Huawei P40 Pro -->
+                    <tr>
+                        <th>
+
+                            <img alt="" src="https://m.media-amazon.com/images/I/61J7iqTIDhL._AC_UF1000,1000_QL80_.jpg" />
+                        </th>
+                        <th>
+
+                            <h2 class="nome-prodotto"> Huawei P40 Pro</h2>
+                        </th>
+                        <th>
+
+                            <span>
+                                Grazie alla quad-camera Leica da 50 MP,
+                                processore Kirin 990 5G e display OLED da 6.58 pollici,
+                                il P40 Pro offre una straordinaria esperienza fotografica e connettività 5G.
+                            </span>
+                        </th>
+                        <th>
+
+                            <span class="prezzo">441,00€</span>
+                        </th>
+                        <th>
+                            
+                            <a href="https://www.amazon.it/Huawei-P40-Dual-Sim-256GB-nero/dp/B088WZNJWX/ref=sr_1_4?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1UIGU57XTU169&keywords=Huawei+P40+Pro&qid=1700853899&sprefix=huawei+p40+pro%2Caps%2C97&sr=8-4"
+                            target="_blank">Ordina su Amazon</a>
+                        </th>
+                        <th>
+                            <input type="text" placeholder="inserisci il tuo commento" class="commento">
+                        </th>
+                    </tr>
+
+
+                    <!-- iPad Pro -->
+                    <tr>
+                        <th>
+
+                            <img alt=""
+                            src="https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/refurb-ipad-pro-12-cell-spacegray-2020?wid=1144&hei=1144&fmt=jpeg&qlt=90&.v=1626721060000" />
+                        </th>
+                        <th>
+
+                            <h2 class="nome-prodotto"> iPad Pro</h2>
+                        </th>
+                        <th>
+
+                            <span>
+                                Con il processore M1, display Liquid Retina XDR,
+                                e la compatibilità con Apple Pencil di seconda generazione,
+                                l'iPad Pro è una potente piattaforma per la produttività e la creatività.
+                            </span>
+                        </th>
+                        <th>
+
+                            <span class="prezzo">899,00€</span>
+                        </th>
+                        <th>
+
+                            <a href="https://www.amazon.it/Apple-2022-iPad-Wi-Fi-128GB/dp/B0BJN8T5B5/ref=sr_1_1_sspa?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2T0TWLOIY0XR8&keywords=iPad%2BPro&qid=1700853971&sprefix=ipad%2Bpro%2Caps%2C115&sr=8-1-spons&ufe=app_do%3Aamzn1.fos.9d4f9b77-768c-4a4e-94ad-33674c20ab35&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&th=1"
+                            target="_blank">Ordina su Amazon</a>
+                        </th>
+                        <th>
+                            <input type="text" placeholder="inserisci il tuo commento" class="commento">
+                        </th>
+                    </tr>
+
+
+                    <!-- Samsung Galaxy Tab S7+ -->
+                    <tr>
+                        <th>
+
+                            <img alt="" src="https://m.media-amazon.com/images/I/81X3d7t9qGS._AC_UF894,1000_QL80_.jpg" />
+                        </th>
+                        <th>
+
+                            <h2 class="nome-prodotto"> Samsung Galaxy Tab S7+</h2>
+                        </th>
+                        <th>
+
+                            <span>
+                                Dotato di un display Super AMOLED da 12.4 pollici,
+                                processore Snapdragon 865+, e S Pen incluso, il Galaxy Tab S7+
+                                offre un'esperienza tablet premium per lavoro e svago.
+                            </span>
+                        </th>
+                        <th>
+                            
+                            <span class="prezzo">1.169,97€</span>
+                        </th>
+                        <th>
+
+                            <a href="https://www.amazon.it/Snapdragon-SuperAMOLED-Espandibili-Batteria-Versione/dp/B08DRSTR3H/ref=sr_1_6?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2TACOEFN2U0AZ&keywords=Samsung+Galaxy+Tab+S7%2B&qid=1700854027&sprefix=samsung+galaxy+tab+s7%2B%2Caps%2C124&sr=8-6&ufe=app_do%3Aamzn1.fos.9d4f9b77-768c-4a4e-94ad-33674c20ab35"
+                            target="_blank">Ordina su Amazon</a>
+                        </th>
+                        <th>
+                            <input type="text" placeholder="inserisci il tuo commento" class="commento">
+                        </th>
+                    </tr>
+
+
+                    <!-- Huawei Watch GT 3 -->
+                    <tr>
+                        <th>
+
+                            <img alt="" src="https://m.media-amazon.com/images/I/71BJYFdShXL._AC_UF1000,1000_QL80_.jpg" />
+                        </th>
+                        <th>
+
+                            <h2 class="nome-prodotto"> Huawei Watch GT 3</h2>
+                        </th>
+                        <th>
+
+                            <span>
+                                Con un design raffinato, monitoraggio avanzato della salute,
+                                e autonomia della batteria eccezionale,
+                                l'Huawei Watch GT 3 unisce stile e funzionalità.
+                            </span>
+                        </th>
+                        <th>
+
+                            <span class="prezzo">225,92€</span>
+                        </th>
+                        <th>
+
+                            <a href="https://www.amazon.it/HUAWEI-Watch-1-32-AMOLED-satellitare/dp/B09L1JHLQC/ref=sr_1_8?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1CEHY9DZ0ZGHN&keywords=Huawei+Watch+GT+3&qid=1700854075&sprefix=huawei+watch+gt+3%2Caps%2C132&sr=8-8&ufe=app_do%3Aamzn1.fos.9d4f9b77-768c-4a4e-94ad-33674c20ab35"
+                            target="_blank">Ordina su Amazon</a>
+                        </th>
+                        <th>
+                            <input type="text" placeholder="inserisci il tuo commento" class="commento">
+                        </th>
+                    </tr>
+
+
+                    <!-- AirPods Pro -->
+                    <tr>
+                        <th>
+
+                            <img alt=""
+                            src="https://cf5.certideal.com/32517-thickbox_default/apple-airpods-pro-1a-generazione-custodia-di-ricarica-magsafe.jpg" />
+                        </th>
+                        <th>
+
+                            <h2 class="nome-prodotto"> AirPods Pro</h2>
+                        </th>
+                        <th>
+
+                            <span>
+                                Gli AirPods Pro offrono cancellazione attiva del rumore,
+                                suono di alta qualità, e un design ergonomico per
+                                un'esperienza audio immersiva e confortevole.
+                            </span>
+                        </th>
+                        <th>
+
+                            <span class="prezzo">239,00€</span>
+                        </th>
+                        <th>
+
+                            <a href="https://www.amazon.it/Apple-AirPods-generazione-custodia-MagSafe/dp/B0CHX9WTR6/ref=sr_1_1_sspa?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=LR5UJH7KRXWE&keywords=AirPods+Pro&qid=1700854105&sprefix=airpods+pro%2Caps%2C122&sr=8-1-spons&ufe=app_do%3Aamzn1.fos.9d4f9b77-768c-4a4e-94ad-33674c20ab35&sp_csd=d2lkZ2V0TmFtZT1zcF9hdGY&psc=1"
+                            target="_blank">Ordina su Amazon</a>
+                        </th>
+                        <th>
+                            <input type="text" placeholder="inserisci il tuo commento" class="commento">
+                        </th>
+                    </tr>
+
+
+                    <!-- Samsung Galaxy Buds2 Pro -->
+                    <tr>
+
+                        <th>
+
+                            <img alt="" src="https://m.media-amazon.com/images/I/610+DBDdbXL._AC_UF1000,1000_QL80_.jpg" />
+                        </th>
+                        <th>
+
+                            <h2 class="nome-prodotto"> Samsung Galaxy Buds2 Pro</h2>
+                        </th>
+                        <th>
+
+                            <span>
+                                Con cancellazione attiva del rumore intelligente,
+                                qualità audio premium e resistenza all'acqua,
+                                i Galaxy Buds Pro sono gli auricolari wireless ideali
+                                per un'esperienza sonora di alta classe.
+                            </span>
+                        </th>
+                        <th>
+
+                            <span class="prezzo">169,440€</span>
+                        </th>
+                        <th>
+
+                            <a href="https://www.amazon.it/SAMSUNG-Galaxy-Buds2-Pro-Bora/dp/B0B7J5MS19/ref=sr_1_11?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=2SK66BVED09RK&keywords=Samsung+Galaxy+Buds+Pro&qid=1700854135&sprefix=samsung+galaxy+buds+pro%2Caps%2C112&sr=8-11&ufe=app_do%3Aamzn1.fos.9d4f9b77-768c-4a4e-94ad-33674c20ab35"
+                            target="_blank">Ordina su Amazon</a>
+                        </th>
+                        <th>
+                            <input type="text" placeholder="inserisci il tuo commento" class="commento">
+                        </th>
+                    </tr>
+                        
+                        
+                        <!-- Huawei MateBook X Pro -->
+                        <tr>
+
+                            <th>
+
+                                <img alt="" src="https://m.media-amazon.com/images/I/51biRq8wExL._AC_UF894,1000_QL80_.jpg" />
+                            </th>
+                            <th>
+
+                                <h2 class="nome-prodotto"> Huawei MateBook X Pro</h2>
+                            </th>
+                            <th>
+
+                                <span>
+                                    Con un design premium, display touchscreen FullView,
+                                    e prestazioni potenti grazie ai processori Intel,
+                                    il MateBook X Pro è un laptop che unisce stile
+                                    e funzionalità per i professionisti in movimento.
+                                </span>
+                            </th>
+                            <th>
+
+                                <span class="prezzo">1.459,84€</span>
+                            </th>
+                            <th>
+
+                                <a href="https://www.amazon.it/HUAWEI-MateBook-Touchscreen-Portatile-Generazione/dp/B0BKQ8C144/ref=sr_1_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=34IYT1S5E7SUD&keywords=Huawei%2BMateBook%2BX%2BPro&qid=1700854189&sprefix=huawei%2Bmatebook%2Bx%2Bpro%2Caps%2C98&sr=8-1&ufe=app_do%3Aamzn1.fos.9d4f9b77-768c-4a4e-94ad-33674c20ab35&th=1"
+                                target="_blank">Ordina su Amazon</a>
+                            </th>
+                            <th>
+                                <input type="text" placeholder="inserisci il tuo commento" class="commento">
+                            </th>
+                        
+                        </tr>
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <span id="indirizzo-footer">© 2023 Electronics Shop | via Roma 15 - Napoli (NA) Italia</span>
+    </footer>
+    <script type="text/javascript" src="s3p2-scaricabile.js"></script>
+</body>
+
+</html>
